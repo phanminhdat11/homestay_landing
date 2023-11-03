@@ -516,20 +516,126 @@ body{
 .category_right .category_top{
     height: 500px;
     width: 100%;
-    background-color: #8664b6;
+    border-radius: 20px;
+    border:  1px solid #140C1F;
+    position: relative;
+
+}
+.category_top .btn_live{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 10px;
+
+
+}
+.category_right .category_top .bg_top{
+    height: 450px;
+    width: 100%;
     border-radius: 20px;
     border:  1px solid gray;
+
+    margin-top: 30px;
 }
-.category_right .category_top img{
+
+.category_top .bg_top .live_room{
     margin-top: 20px;
     margin-left: 30px;
 
+}
+.bg_top .now{
+    margin-top: 15px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+
+}
+
+.now .btn_now {
+    margin-top: 40px;
+    margin-right: 20px;
+
+}
+
+.now .text_now{
+    width: 60%;
+    height: 100%;
+    background-color: #140C1F;
+    margin-left: 30px;
+    color: white;
+    font-size: 16px;
+}
+.text_now h4{
+    color: #978ea3;
+    font-size: 12px;
+}
+.text_now h5{
+   color: #75457f;
+    font-size: 14px;
 }
 .category_right .category_bottom{
     height: 380px;
     width: 100%;
     margin-top: 30px;
-    background-color: #978ea3;
+    background-color: #4a3d5b;
     border-radius: 20px;
     border:  1px solid gray;
+}
+.category_bottom .text_creator{
+    display: flex;
+    width: 95%;
+    height: 50px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2.5%;
+    font-size: 20px;
+    
+}
+.category_bottom .text_creator h5{
+    font-size: 14px;
+
+
+}
+
+.category_bottom .fl_creator{
+    margin-top: 15px;
+    display: flex;
+    width: 100%;
+    height: 60px;
+
+}
+
+.fl_creator .user_follow{
+    display: flex;
+    width: 60%;
+    height: 60px;
+    justify-content: space-around;
+    color: white;
+
+}
+.fl_creator .user_follow h5{
+
+    color: #AD1AAF;
+
+}
+
+
+.fl_creator .btn_follow{
+    height: 60px;
+    width: 40%;
+
+}
+.btn_follow .btn_cr_fl{
+    width: 110px;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 30px;
+    background-color: #AD1AAF;
+    color: white;
+    font-size: 15px;
+}
+.btn_cr_fl h3{
+    margin-top: 5%;
+    margin-left: 25px;
+
 }
